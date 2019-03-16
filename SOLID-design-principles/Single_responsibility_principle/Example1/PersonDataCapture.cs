@@ -1,7 +1,11 @@
-﻿using System;
-
-namespace Single_responsibility_principle
+﻿namespace Single_responsibility_principle
 {
+    #region Using
+
+    using System;
+
+    #endregion
+
     public class PersonDataCapture
     {
         public static Person Capture()

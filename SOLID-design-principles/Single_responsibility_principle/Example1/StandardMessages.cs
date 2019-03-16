@@ -1,7 +1,11 @@
-﻿using System;
-
-namespace Single_responsibility_principle
+﻿namespace Single_responsibility_principle
 {
+    #region Using
+
+    using System;
+
+    #endregion
+
     internal static class StandardMessages
     {
         public static void SayWelcomeMessage()

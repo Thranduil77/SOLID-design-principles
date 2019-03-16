@@ -1,7 +1,11 @@
-﻿using System;
-
-namespace Single_responsibility_principle
+﻿namespace Single_responsibility_principle
 {
+    #region Using
+
+    using System;
+
+    #endregion
+
     internal static class AccountGenerator
     {
         public static void GenerateUsername(Person user)

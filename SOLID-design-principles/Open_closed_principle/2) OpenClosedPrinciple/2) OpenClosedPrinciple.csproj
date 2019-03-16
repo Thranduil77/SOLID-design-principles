@@ -43,11 +43,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Example1Bad\DeveloperReport.cs" />
+    <Compile Include="Example1Bad\Example1Bad.cs" />
+    <Compile Include="Example1Bad\SalaryCalculator.cs" />
+    <Compile Include="Example1Good\BaseSalaryCalculator.cs" />
+    <Compile Include="Example1Good\Example1Good.cs" />
+    <Compile Include="Example1Good\JuniorDevSalaryCalculator.cs" />
+    <Compile Include="Example1Good\SalaryCalculatorImproved.cs" />
+    <Compile Include="Example1Good\SeniorDevSalaryCalculator.cs" />
+    <Compile Include="Example2Bad\ComputerMonitor.cs" />
+    <Compile Include="Example2Bad\Example2Bad.cs" />
+    <Compile Include="Example2Bad\MonitorFilter.cs" />
+    <Compile Include="Example2Bad\MonitorType.cs" />
+    <Compile Include="Example2Bad\Screen.cs" />
+    <Compile Include="Example2Good\Example2Good.cs" />
+    <Compile Include="Example2Good\IFilter.cs" />
+    <Compile Include="Example2Good\ISpecification.cs" />
+    <Compile Include="Example2Good\MonitorFilterGood.cs" />
+    <Compile Include="Example2Good\MonitorTypeSpecification.cs" />
+    <Compile Include="Example2Good\ScreenFilterSpecification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

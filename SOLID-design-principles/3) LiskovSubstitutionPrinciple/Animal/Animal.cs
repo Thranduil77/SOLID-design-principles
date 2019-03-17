@@ -1,6 +1,6 @@
 ﻿namespace _3__LiskovSubstitutionPrinciple.Animal
 {
-    public class Animal
+    public abstract class Animal
     {
         public string Walk()
         {
